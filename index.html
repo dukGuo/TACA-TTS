@@ -162,8 +162,8 @@
       let scene_data = ""
 
       scene_data += '<tr>'
-      scene_data += '<td style="text-align: center; width: 10%;" rowspan=1>' + text + '</td>'
-      scene_data += '<td style="text-align: center; width: 22%;" rowspan=1>' + trans + '</td>'
+      scene_data += '<td style="text-align: center; width: 10%;font-size:14px" rowspan=1>' + text + '</td>'
+      scene_data += '<td style="text-align: center; width: 22%;font-size:13px" rowspan=1>' + trans + '</td>'
       for (let z in models) {
         let model = models[z]
         scene_data += '<td style="text-align: center"><audio style="width: 100%;" controls="" src="' + './raw/samples/' + model + '/' + file + '.wav' + '"></audio></td>'
